@@ -1,0 +1,69 @@
+:root {
+    --theme-color: #371400;
+    --theme-color-lighter: #02934d50;
+    --black: #000000;
+    /* --red: #d93025; */
+    --white: #ffffff;
+    --yellow: #B7990D;
+    --BtnColors: #EC4E20;
+
+    /* Border radiuses */
+    --br-sm-9: 13.9px;
+    --br-xs: 12px;
+    --br-5xs: 8px;
+    --br-base: 16px;
+    --br-46xl: 65px;
+    --br-35xl: 54px;
+    --br-33xl: 52px;
+
+    /* font sizes */
+    --font-size-base: 16px;
+    --font-size-sm: 14px;
+    --font-size-5xl: 24px;
+    --font-size-xl: 20px;
+    --font-size-15xl: 34px;
+
+}
+
+
+.menu .menu-item .menu-link[aria-expanded=true],
+.menu .menu-item .menu-link:focus,
+.menu .menu-item.menuitem-active{
+    color: var(--white) !important;
+}
+.navbar-custom{
+    background-color: var(--yellow) !important;
+}
+/* .menu .menu-item.menuitem-active> .sub-menu .menu-link{
+    color: var(--red) !important;
+} */
+
+/* Buttons */
+.btnRed{
+    background-color: var(--BtnColors);
+    color: var(--white);
+}
+.btnRed:hover{
+    background-color: transparent;
+    color: var(--BtnColors);
+    border-color: var(--BtnColors);
+}
+/* Buttons */
+
+.logo-box .logo-lg{
+    height: 73px !important;
+}
+.logo-box .logo-sm {
+    height: 50px;
+}
+
+/* SideBar */
+.scrollbar{
+    background-color: var(--theme-color);
+}
+.menu .menu-item .sub-menu .menu-text i,
+.menu .menu-item .menu-link > .menu-icon + .menu-text{
+    margin-right: 10px;
+    display: inline-block !important;
+}
+/* SideBar */
