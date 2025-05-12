@@ -1,0 +1,43 @@
+:root {
+    --theme-color: #02934d;
+    --theme-color-lighter: #02934d50;
+    --black: #000000;
+    --red: #d93025;
+
+    /* Border radiuses */
+    --br-sm-9: 13.9px;
+    --br-xs: 12px;
+    --br-5xs: 8px;
+    --br-base: 16px;
+    --br-46xl: 65px;
+    --br-35xl: 54px;
+    --br-33xl: 52px;
+
+    /* font sizes */
+    --font-size-base: 16px;
+    --font-size-sm: 14px;
+    --font-size-5xl: 24px;
+    --font-size-xl: 20px;
+    --font-size-15xl: 34px;
+
+}
+
+.navigation .navigation-menu-tab ul li a.active{
+    background-color: var(--theme-color) !important;
+}
+
+.navigation .navigation-menu-body ul li > a.active{
+    background-color: var(--theme-color-lighter) !important;
+    color: var(--black) !important;
+}
+.navigation .navigation-menu-body ul li > a:hover{
+    color: var(--theme-color) !important;
+}
+
+
+/* Buttons */
+.btnRed{
+    background-color: var(--red);
+}
+/* Buttons */
+

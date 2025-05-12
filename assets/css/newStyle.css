@@ -1,0 +1,19 @@
+.side-menu-wrap ul li.has-sub-menu>a span.product-menu-text:before{
+    right: -75px;
+  }
+  .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff !important;
+  }
+
+ 
+  ::-webkit-scrollbar {
+  height: 8px; /* Scrollbar height for horizontal scroll */
+  }
+
+  ::-webkit-scrollbar-track {
+  border-radius: 10px; /* Rounded corners for the track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+  border-radius: 10px; /* Rounded corners for the thumb */
+  }
